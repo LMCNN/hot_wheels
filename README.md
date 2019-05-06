@@ -41,7 +41,7 @@ Because of the time constraints, we didn't have time to write about the shellsri
 1. Start psql
 2. Create a user called postgres with a password of postgres.
 3. Log in with postgres and create a database called hot_wheels.
-4. Open another terminal to run: `git clone git@code.vt.edu:guang15/cs4604-dbg.git`
+4. Open another terminal to run: `git clone https://github.com/LMCNN/hot_wheels.git`
 5. Move the path to the sql directory and run the first line of install.sql and load.sql.
 6. Move the path to the code directory and run: `./mvnw spring-boot:run`
 

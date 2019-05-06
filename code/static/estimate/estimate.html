@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Estimate</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <!-- Include one of jTable styles. -->
+    <link href="http://www.jtable.org/Scripts/jtable/themes/metro/blue/jtable.css" rel="stylesheet" type="text/css" />
+
+    <!-- Include jTable script file. -->
+    <script src="http://www.jtable.org/Scripts/jtable/jquery.jtable.js" type="text/javascript"></script>
+
+    <script src="estimate.js"></script>
+    <link href="../nav.css" rel="stylesheet">
+</head>
+<body>
+
+<ul>
+    <li><a class="navTitle">Hot Wheels Auto Repair</a></li>
+    <li><a class="navCustomer hover" href="../customer/customer.html">Customer</a></li>
+    <li><a class="navMechanic hover" href="../mechanic/mechanic.html">Mechanic</a></li>
+    <li><a class="navRepair hover" href="../repair/repair.html">Repair</a></li>
+    <li><a class="navEstimate hover" href="estimate.html">Estimate</a></li>
+</ul>
+
+<br>
+Choose one of following repairs to estimate cost:
+<select id="type" onchange="fetchEstimate()">
+    <option value="upgrade computer">upgrade computer
+    <option value="upgrade transmission">upgrade transmission
+    <option value="upgrade engine">upgrade engine
+</select>
+<div id="EstimateTypeTableContainer"></div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body {
+    max-width: 1000px;
+    /*padding: 100px 20px;*/
+    margin: auto;
+    background: #f8f1e1;
+}
+.title{
+    font-family: Georgia;
+    font-size: 18px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3453af;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*Change color when hover */
+.hover:hover {
+    background-color: #2628a0;
+}

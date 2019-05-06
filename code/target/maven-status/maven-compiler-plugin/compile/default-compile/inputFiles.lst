@@ -1,0 +1,10 @@
+/Users/mingchili/Desktop/cs4604-dbg/code/src/main/java/com/dbg/hot_wheels/HotWheelsApplication.java
+/Users/mingchili/Desktop/cs4604-dbg/code/src/main/java/com/dbg/hot_wheels/repository/CarRepository.java
+/Users/mingchili/Desktop/cs4604-dbg/code/src/main/java/com/dbg/hot_wheels/entity/TelNumber.java
+/Users/mingchili/Desktop/cs4604-dbg/code/src/main/java/com/dbg/hot_wheels/repository/CustomerRepository.java
+/Users/mingchili/Desktop/cs4604-dbg/code/src/main/java/com/dbg/hot_wheels/entity/Customer.java
+/Users/mingchili/Desktop/cs4604-dbg/code/src/main/java/com/dbg/hot_wheels/repository/TelNumberRepository.java
+/Users/mingchili/Desktop/cs4604-dbg/code/src/main/java/com/dbg/hot_wheels/entity/TelNumberId.java
+/Users/mingchili/Desktop/cs4604-dbg/code/src/main/java/com/dbg/hot_wheels/entity/Car.java
+/Users/mingchili/Desktop/cs4604-dbg/code/src/main/java/com/dbg/hot_wheels/controller/Controller.java
+/Users/mingchili/Desktop/cs4604-dbg/code/src/main/java/com/dbg/hot_wheels/service/CustomerService.java
